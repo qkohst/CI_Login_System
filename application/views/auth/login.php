@@ -8,14 +8,16 @@
               <div class="auth-form">
                 <h4 class="text-center mb-4">Login Page</h4>
                 <?= $this->session->flashdata('message'); ?>
-                <form action="index.html">
+                <form method="post" action="<?= base_url('auth'); ?>">
                   <div class="form-group">
                     <label class="mb-1"><strong>Email</strong></label>
-                    <input type="text" class="form-control" placeholder="hello@example.com" id="email" name="email">
+                    <input type="text" class="form-control" placeholder="hello@example.com" id="email" name="email" value="<?= set_value('email') ?>">
+                    <?php echo form_error('email', '<small class="text-danger pl-1">', '</small>'); ?>
                   </div>
                   <div class="form-group">
                     <label class="mb-1"><strong>Password</strong></label>
                     <input type="password" class="form-control" placeholder="password" id="password" name="password">
+                    <?php echo form_error('password', '<small class="text-danger pl-1">', '</small>'); ?>
                   </div>
                   <div class="form-row d-flex justify-content-between mt-4 mb-2">
                     <div class="form-group">
