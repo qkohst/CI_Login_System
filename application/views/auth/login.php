@@ -7,6 +7,7 @@
             <div class="col-xl-12">
               <div class="auth-form">
                 <h4 class="text-center mb-4">Login Page</h4>
+                <?= $this->session->flashdata('message'); ?>
                 <form action="index.html">
                   <div class="form-group">
                     <label class="mb-1"><strong>Email</strong></label>
@@ -28,7 +29,7 @@
                     </div>
                   </div>
                   <div class="text-center">
-                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    <button type="submit" class="btn btn-primary btn-block">LOGIN</button>
                   </div>
                 </form>
                 <div class="new-account mt-3">
