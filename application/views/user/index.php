@@ -17,7 +17,7 @@
           <div class="card-body p-4">
             <div class="media ai-icon">
               <span class="mr-3 bgl-primary text-primary">
-                <img src="<?= base_url('assets/images/profile/') . $user['image']; ?>" class="bg-white" width="60" alt="" />
+                <img src="<?= base_url('assets/images/profile/') . $user['image']; ?>" width="80" alt="" />
               </span>
               <div class="media-body">
                 <h4 class="mb-0 text-black"><span class="ml-0"><?= $user['name'] ?></span></h4>
