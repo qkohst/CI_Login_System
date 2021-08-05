@@ -51,7 +51,7 @@
          
         </ul>
 
-        <div class="copyright fixed-bottom">
+        <div class="copyright">
           <small><strong>CodeIgniter - Login System</strong></small><br>
           <small>© 2021 Qkoh St</small>
         </div>
