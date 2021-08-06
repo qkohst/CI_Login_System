@@ -20,7 +20,7 @@
               <span class="mr-3 bgl-primary text-primary">
                 <img src="<?= base_url('assets/images/profile/') . $user['image']; ?>" width="100" alt="" />
               </span>
-              <div class="media-body">
+              <div class="media-body pl-2">
                 <h4 class="mb-0 text-black"><span class="ml-0"><?= $user['name'] ?></span></h4>
                 <p class="mb-0"><?= $user['email'] ?></p>
                 <small>Member since <?= date('d F Y', $user['date_created']); ?></small>
