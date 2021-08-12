@@ -1,6 +1,45 @@
-###################
-What is CodeIgniter
-###################
+
+## Login System CodeIgniter 3
+
+Developed using CodeIgniter 3 with MySQL DBMS
+
+## Available functionalities:
+
+1. Login
+2. Register
+3. Edit Profile
+4. Change Password
+5. Manage user roles
+6. Manage menu user
+7. Manage sub menu user 
+
+
+### Login
+
+![1](https://user-images.githubusercontent.com/57386598/129217357-26033682-32a4-46f7-b09e-a8336f84c769.png)
+
+### Register
+![2  Register](https://user-images.githubusercontent.com/57386598/129217354-51e087c8-392f-442e-a379-45927fc56110.png)
+
+### Edit Profile
+![4  Edit Profile](https://user-images.githubusercontent.com/57386598/129217337-1eae3dfa-93b0-4140-b64b-d5b9f2024900.png)
+
+### Change Password
+![5  Change Password](https://user-images.githubusercontent.com/57386598/129217342-8320161d-1753-4c3c-b834-3a145a11a320.png)
+
+### Manage Role User
+![3  Role User](https://user-images.githubusercontent.com/57386598/129217351-9863a493-5312-445b-ae9a-bfec00e0675e.png)
+
+### Manage Menu
+![6  Menu](https://user-images.githubusercontent.com/57386598/129217332-61b392b0-6672-4a77-b431-40230df7aa94.png)
+
+### Manage Sub Menu
+![7  Sub Menu](https://user-images.githubusercontent.com/57386598/129217325-577a2fab-f5da-4c98-a650-1c141edb7d9b.png)
+
+
+
+# What is CodeIgniter
+
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
